@@ -31,7 +31,7 @@
 
 ## 效果图
 
-<img width="1000" height="1760" alt="和风天气卡片" src="https://github.com/user-attachments/assets/0f8b2604-9f46-4070-9c22-6fd872f12ff0" />
+<img width="40%" alt="和风天气卡片" src="https://github.com/user-attachments/assets/0f8b2604-9f46-4070-9c22-6fd872f12ff0" />
 
 ## 配置
 

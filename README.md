@@ -45,7 +45,7 @@
 在 AstrBot 插件配置中填写和风天气控制台提供的 JWT 凭据：
 
 - `jwt_sub`：项目 ID
-- `jwt_kid`：Key ID
+- `jwt_kid`：凭据 ID
 - `jwt_private_key`：Ed25519 PEM 私钥
 - `forecast_days`：预报天数（1-30，依和风天气套餐权限而定）
 - `hourlytype` 12 小时 或 24 小时

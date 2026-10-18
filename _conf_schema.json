@@ -12,7 +12,7 @@
     "default": ""
   },
   "jwt_kid": {
-    "description": "JWT Key ID",
+    "description": "JWT 凭据 ID",
     "hint": "上传公钥后获取的凭据 ID",
     "type": "string",
     "default": ""

@@ -20,7 +20,7 @@
 
 ## 📦 安装
 
-- 直接在astrbot的插件市场搜索astrbot_plugin_multimsg，点击安装即可
+- 直接在astrbot的插件市场搜索astrbot_plugin_heweather，点击安装即可
 
 ## ⌨️ 调用
 

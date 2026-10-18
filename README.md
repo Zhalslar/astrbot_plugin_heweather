@@ -4,7 +4,7 @@
 
 # astrbot_plugin_heweather
 
-_ 和风天气 _
+## 和风天气
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -14,12 +14,15 @@ _ 和风天气 _
 </div>
 
 ---
-
-# 和风天气（AstrBot）
+## 🤝 介绍
 
 基于和风天气 API 的 AstrBot 插件，可查询天气、空气质量和预警信息。天气图片使用 Typst 直接编译生成, 轻量又美观
 
-## 调用
+## 📦 安装
+
+- 直接在astrbot的插件市场搜索astrbot_plugin_multimsg，点击安装即可
+
+## ⌨️ 调用
 
 | 调用方式 | 格式 | 示例 | 
 | --- | --- | --- |
@@ -27,6 +30,8 @@ _ 和风天气 _
 | 自然语言调用 | - | 查查上海的天气 |
 
 ## 效果图
+
+<img width="1000" height="1760" alt="和风天气卡片" src="https://github.com/user-attachments/assets/0f8b2604-9f46-4070-9c22-6fd872f12ff0" />
 
 ## 配置
 
@@ -40,3 +45,14 @@ _ 和风天气 _
 
 和风天气 JWT 认证说明：<https://dev.qweather.com/docs/configuration/authentication/>。
 
+
+## 👥 贡献指南
+
+- 🌟 Star 这个项目！（点右上角的星星，感谢支持！）
+- 🐛 提交 Issue 报告问题
+- 💡 提出新功能建议
+- 🔧 提交 Pull Request 改进代码
+
+## 📌 注意事项
+
+- 想第一时间得到反馈的可以来作者的插件反馈群（QQ群）：460973561（不点star不给进）

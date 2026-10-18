@@ -56,3 +56,7 @@
 ## 📌 注意事项
 
 - 想第一时间得到反馈的可以来作者的插件反馈群（QQ群）：460973561（不点star不给进）
+
+## 🤝 致谢
+
+卡片排版借鉴了[nonebot-plugin-heweather](https://github.com/kexue-z/nonebot-plugin-heweather)

@@ -92,6 +92,7 @@ class ConfigNode:
 
 
 class PluginConfig(ConfigNode):
+    default_city: str
     jwt_sub: str
     jwt_kid: str
     jwt_private_key: str

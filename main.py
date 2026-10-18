@@ -18,11 +18,12 @@ class HeWeatherPlugin(Star):
 
     @filter.llm_tool(name="weather_query") # type: ignore
     @filter.command("天气", alias={"weather"})
-    async def weather_query(self, event: AstrMessageEvent, city: str = "上海"):
+    async def weather_query(self, event: AstrMessageEvent, city: str = ""):
         """天气 <城市名>，查询城市天气。
         Args:
             city(string): 要查询的城市名.
         """
+        city = city or self.cfg.default_city
         try:
             weather = Weather(city, self.cfg)
             data = await weather.load_data()

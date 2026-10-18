@@ -35,15 +35,21 @@
 
 ## 配置
 
+- 前往 [和风天气控制台](https://console.qweather.com) 注册账号
+
+- 项目管理 -> 创建项目，获得`项目 ID`
+- 通过[和风天气JWT认证说明](https://dev.qweather.com/docs/configuration/authentication/)中的步骤（任选一种方式），创建一对密钥：`公钥`和`私钥`
+- 刚才创建的项目 -> 创建凭据 -> 选 JSON Web Token -> 填写要上传的`公钥` -> 保存 -> 获得`凭据ID`
+- 复制 `项目 ID` `私钥` `凭据ID`
+
 在 AstrBot 插件配置中填写和风天气控制台提供的 JWT 凭据：
 
 - `jwt_sub`：项目 ID
 - `jwt_kid`：Key ID
 - `jwt_private_key`：Ed25519 PEM 私钥
 - `forecast_days`：预报天数（1-30，依和风天气套餐权限而定）
-- `hourlytype`：1 为未来 12 小时，2 为未来 24 小时
+- `hourlytype` 12 小时 或 24 小时
 
-和风天气 JWT 认证说明：<https://dev.qweather.com/docs/configuration/authentication/>。
 
 
 ## 👥 贡献指南

@@ -1,4 +1,10 @@
 {
+  "default_city": {
+    "description": "默认城市",
+    "hint": "默认查询的城市，未指定要查询的城市时，默认查询此城市",
+    "type": "string",
+    "default": "上海"
+  },
   "jwt_sub": {
     "description": "JWT 项目 ID",
     "hint": "和风天气控制台的项目 ID",
